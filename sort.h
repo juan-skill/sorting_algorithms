@@ -33,9 +33,13 @@ int selection_smallest(int *arr, int k, int size);
 int partition(int *array, int beg, int end, size_t size);
 void sort(int *array, int beg, int end, size_t size);
 
+void insertion_sort_array(int *array, int size, int gap);
+
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+
+void shell_sort(int *array, size_t size);
 
 #endif
